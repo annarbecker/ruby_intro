@@ -12,7 +12,5 @@ class LessonTwo
 		  .reject{|element| element < 5000}
 		  .sort!
 		  .reverse!
-		  
-		# arr
 	end
 end
