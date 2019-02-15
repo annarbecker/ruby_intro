@@ -8,7 +8,7 @@ class LessonTwo
 
   def array_manipulation
     arr = (1...10000).to_a
-	  .select{|element| element % 3 == 0}
+      .select{|element| element % 3 == 0}
       .reject{|element| element < 5000}
       .sort
       .reverse
