@@ -5,12 +5,12 @@
 #  - are not less than 5000
 #  - sorted in reverse order
 class LessonTwo
-	
+
   def array_manipulation
-  	  arr = (1...10000).to_a
-  	    .select{|element| element % 3 == 0}
-	    .reject{|element| element < 5000}
-	    .sort
-	    .reverse
+    arr = (1...10000).to_a
+	  .select{|element| element % 3 == 0}
+      .reject{|element| element < 5000}
+      .sort
+      .reverse
   end
 end
